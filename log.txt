@@ -1,0 +1,12 @@
+2024-09-28 00:02:55,264 - INFO - Database created at yourname_database.db
+2024-09-28 00:02:55,297 - INFO - Executed SQL from create_tables.sql
+2024-09-28 00:02:55,312 - INFO - Executed SQL from insert_records.sql
+2024-09-28 00:02:55,312 - INFO - Database initialization completed
+2024-09-28 00:03:22,879 - INFO - Executed SQL from update_records.sql
+2024-09-28 00:03:22,895 - INFO - Executed SQL from delete_records.sql
+2024-09-28 00:03:22,896 - INFO - Executed SQL from query_aggregation.sql
+2024-09-28 00:03:22,896 - INFO - Executed SQL from query_filter.sql
+2024-09-28 00:03:22,911 - INFO - Executed SQL from query_sorting.sql
+2024-09-28 00:03:22,911 - INFO - Executed SQL from query_group_by.sql
+2024-09-28 00:03:22,926 - INFO - Executed SQL from query_join.sql
+2024-09-28 00:03:22,926 - INFO - All SQL operations completed successfully
