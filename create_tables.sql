@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS Authors (
+    AuthorID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Books (
+    BookID INTEGER PRIMARY KEY,
+    Title TEXT NOT NULL,
+    Genre TEXT,
+    AuthorID INTEGER,
+    FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID)
+);
